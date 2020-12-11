@@ -2,8 +2,9 @@ header
   @extend %background-image
   background:
     position: 30px 20px, 50% 50%
-    image: url(/assets/img/#{$logo-path}), url(/assets/img/#{$hero-path}) 
+    image: url(../img/#{$logo-path}), url(../img/#{$hero-path}) 
   padding-bottom: 50px
+  
   
   .logo
     +size(50px)
@@ -19,13 +20,13 @@ header
     
     a
       display: inline-block
-      margin-left: 30px
+      margin-left: 20px
       
-      color: rgba(255,255,255,0.8)
+      color: rgba(0,0,0,0.7)
       @extend %small-bold
       
       &:hover
-        color: rgba(255,255,255,0.9)
+        color: rgba(0,0,0,1)
     
   h1
     text-align: center
@@ -35,14 +36,14 @@ header
     color: white
     text-transform: uppercase
     letter-spacing: 0.05em
-    margin-bottom: 25px
+    margin-bottom: 20px
     clear: both
-    padding-top: 330px
+    padding-top: 100px
     
-  
+    
     span
       display: inline-block
-      padding: 0.02em 0.5em
+      padding: 0.2em 0.5em
       border: white solid 10px
   
   .kicker
@@ -56,11 +57,12 @@ header
   header
     background:
       position: 50% 20px, 50% 50%
-
+  
     nav
       float: none
       text-align: center
       padding-top: 90px
-
+    
     h1
       padding-top: 0px
+    

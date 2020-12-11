@@ -36,29 +36,29 @@
   float: left
 
 .thumb-container
-  display: block
   max-width: 960px
   margin: 0px auto
   
   +clearfix
   
-
-  label
-    position: relative
+  .thumb-unit
     display: block
-    float: left
     width: 25%
+    float: left
+    position: relative
+    padding-top: 16%
     cursor: pointer
-    .thumb-unit
-      display: block
+    background:
+      position: center center
+      repeat: no-repeat
+      size: cover
+    +perspective(300)
+    @if $animation != "bounceOut"
       overflow: hidden
-
-      img
-        display: block
-        max-width: 100%
       
     @media screen and (max-width: 760px)
       width: 50%
+      padding-top: 26%
     
     .thumb-overlay
       +position(absolute)
@@ -71,7 +71,7 @@
 
       strong
         display: block
-        padding: 0 9%
+        padding: 0px 20px
         color: white
         font:
           weight: 300
@@ -86,6 +86,7 @@
         @extend %#{$animation}
     
     
+
 .work-container
   max-width: 600px
   margin: 0px auto
@@ -128,4 +129,9 @@
       left: 0px
     
     h4
-      margin-left: 60px  
+      margin-left: 60px
+    
+    
+    
+    
+    

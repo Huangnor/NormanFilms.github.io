@@ -1,4 +1,4 @@
-<section class="section-work">
+<section class="alt-section section-work">
   
   <h3 id="work">Work</h3>
   {% for project in site.data.settings.projects %}
@@ -12,13 +12,11 @@
     <div class="thumb-wrap">
       <div class="thumb-container">
       {% for project in site.data.settings.projects %}
-      <label for="{{ project.folder }}">
-        <div class="thumb-unit" data-url="{{ site.github.url }}/work/{{ project.folder }}/">
-          <img src="{{ site.github.url }}/assets/img/work/{{project.folder}}/thumb.jpg" alt="{{ project.name }}" />
-        </div> 
-        <div class="thumb-overlay">
-          <strong>{{ project.name }}</strong>
-
+      <label for="{{ project.folder }}">  
+        <div class="thumb-unit" data-folder="{{ project.folder }}" style="background-image: url(assets/img/work/{{project.folder}}/thumb.jpg);"> 
+          <div class="thumb-overlay">
+            <strong>{{ project.name }}</strong>
+          </div>
         </div>
       </label>
       {% endfor %}

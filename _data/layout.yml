@@ -4,9 +4,9 @@ animation: "bounceOut"
 
 # Images
 
-logo: "logo.svg"
-hero: "hero-bg.jpg"
-avatar: "travitar.jpg"
+logo: "NHLogo.svg"
+hero: "sun-bg.jpg"
+avatar: "NHFace.jpg"
 
 # Colors
 

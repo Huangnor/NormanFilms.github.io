@@ -634,7 +634,7 @@ footer, header {
 header {
   background-position: 30px 20px, 50% 50%;
   background-image: url(../img/NHLogo.svg), url(../img/Sun-bg.jpg);
-  padding-bottom: 50px; }
+  padding-bottom: 30px; }
   header .logo {
     height: 50px;
     width: 50px;

@@ -8,12 +8,11 @@ Subscribe to [the channel](https://www.youtube.com/user/DevTipsForDesigners) to 
 
 In order to get this super fantastic [Jekyll](http://jekyllrb.com) powered template for Artists follow this simple step: 
 
-* If you haven't got ruby installed on your computer, install it.
+* If you haven't ruby on your computer, install it. 
 * Then run in your terminal `$ gem install jekyll`
 * Move/`cd` to a folder, always in your terminal, in which you want to insert the *Artists-Theme*
 * Run `git clone https://github.com/DevTips/Artists-Theme.git`
 * Then `cd Artists-Theme`
-* `jekyll serve -w` or `jekyll serve`
 * `jekyll serve --watch`
 * **DONE**
 
@@ -21,10 +20,11 @@ Isn't it fantastic?
 
 Learn how to [use Jekyll on windows](http://jekyll-windows.juthilo.com/) (if that's your thing :)
 
+
+
 ## Credits
 
 _Code contributions via pull request:_
-
 - [Riccardo Pasianotto](http://rkpasia.github.io)
 - [cust0dian](https://github.com/cust0dian)
 - [Dylan Spicker](https://github.com/ZDesign)
@@ -46,8 +46,6 @@ _Code contributions via pull request:_
 - [beRoberto](https://github.com/beRoberto)
 - [Sven Kube](https://github.com/SvenKube)
 
-
-
 _A big thank you to these creators for contributing sample projects for the "work" section:_
 - [Micael Butial](https://www.behance.net/gallery/14751131/-TYPO-International-Design-Talks)
 - [Petras Nargėla](https://www.behance.net/gallery/16750837/Free-80-Crispy-Icons-in-PSD-AI-SVG-Webfont)
@@ -68,5 +66,7 @@ _Artist Themes in the wild:_
 
 ---
 
+
 This is a free Jekyll Theme that is currently being developed in weekly episodes on the [DevTips YouTube channel](http://youtube.com/devtipsfordesigners). 
+
 

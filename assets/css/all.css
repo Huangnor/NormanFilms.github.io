@@ -1245,15 +1245,9 @@ footer {
   font-size: 72px;
   font-weight: 300;
   line-height: 1; }
-  @media (max-width: 800px) {
-    .biglink {
-      font-size: 38px; } }
-  @media (max-width: 600px) {
-    .biglink {
-      font-size: 24px; } }
-  @media (max-width: 480px) {
-    .biglink {
-      font-size: 18px; } }
+  width: 90%
+  margin: 0 auto
+  
 form {
   max-width: 450px;
   margin: 0 auto 100px;

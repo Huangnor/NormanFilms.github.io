@@ -856,6 +856,9 @@ footer {
 #proj-3:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-3 {
   display: block; }
 
+#proj-4:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-4 {
+    display: block; }
+
 .return {
   display: none; }
 

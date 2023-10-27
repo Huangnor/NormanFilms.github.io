@@ -3,7 +3,7 @@
 
 title: LOVE ~ DEEP
 description: WEDDING // FILMS // TORONTO
-email: norm.huang@outlook.ca
+email: huangnor@gmail.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
@@ -48,11 +48,11 @@ skills:
 # Work Section
 
 projects:
+- {name: Jielun & Yilin, folder: 'proj-5', file: 'work/proj-5.html'}
 - {name: Ted & Jennette, folder: 'proj-1', file: 'work/proj-1.html'}
 - {name: Nicole & Jeremy, folder: 'proj-2', file: 'work/proj-2.html'}
 - {name: Carmen & Victor, folder: 'proj-3', file: 'work/proj-3.html'}
 - {name: Chen & Huilan, folder: 'proj-4', file: 'work/proj-4.html'}
-- {name: Jielun & Yilin, folder: 'proj-5', file: 'work/proj-5.html'}
 - {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
 - {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
 - {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}

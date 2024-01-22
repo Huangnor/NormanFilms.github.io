@@ -626,9 +626,9 @@ footer, header {
 
 header {
   background-position: 30px 20px, 50% 50%;
-  background-image: url(../img/NHLogo.svg), url(../img/sun2-bg.jpg);
+  background-image: url(../img/NHLogo.svg), url(../img/Josh&Reb.jpg);
   padding-bottom: 30px; }
-  header .logo {
+  header .logo {  
     height: 50px;
     width: 50px;
     float: left;
